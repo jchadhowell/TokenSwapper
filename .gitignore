@@ -60,13 +60,13 @@ _ReSharper*/
 #Packages/
 
 #Allow NuGet.exe
-!NuGet.exe
+#!NuGet.exe
 
 #Ignore generated nupkg files
-*.nupkg
+#*.nupkg
 
 #Allow released nupkg files
-!MyProjectName.1.0.nupkg
+#!MyProjectName.1.0.nupkg
 
 #Ignore local testsettings
 Local.testsettings
