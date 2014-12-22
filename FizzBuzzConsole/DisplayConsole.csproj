@@ -35,9 +35,6 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="VisualStudioGitIgnore">
-      <HintPath>..\packages\VisualStudioGitIgnore.1.3.0.0\lib\net40\VisualStudioGitIgnore.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -46,7 +43,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="git.ignore" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FizzBuzzCore\Core.csproj">
